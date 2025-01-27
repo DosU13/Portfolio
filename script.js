@@ -11,5 +11,5 @@ document.querySelectorAll('.scroll-container').forEach((container, index) => {
     }
 
     // Adjust the speed dynamically for visual variety
-    container.style.animationDuration = `${10 + index * 2}s`;
+    container.style.animationDuration = `${20 + index * 4}s`;
 });
